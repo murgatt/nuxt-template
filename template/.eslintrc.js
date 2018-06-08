@@ -21,8 +21,9 @@ module.exports = {
             'js': 'never',
             'vue': 'never'
         }],
-        "indent": ["error", 4],
+        'indent': 'off',
         'vue/html-indent': ['error', 4],
+        'vue/script-indent': ['error', 4, {"baseIndent": 1}],
     },
     settings: {
         "import/resolver": {

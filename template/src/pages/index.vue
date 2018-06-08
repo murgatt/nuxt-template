@@ -23,13 +23,13 @@
 </template>
 
 <script>
-import AppLogo from '../components/AppLogo';
+    import AppLogo from '../components/AppLogo';
 
-export default {
-    components: {
-        AppLogo,
-    },
-};
+    export default {
+        components: {
+            AppLogo,
+        },
+    };
 </script>
 
 <style>
